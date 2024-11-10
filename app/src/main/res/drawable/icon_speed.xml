@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="97dp"
+    android:height="97dp"
+    android:viewportWidth="97"
+    android:viewportHeight="97">
+
+    <!-- Speedometer Background -->
+    <path
+        android:fillColor="#B4DFFB"
+        android:pathData="M48.5,25 A23.5,23.5 0 1,1 48.5,72 A23.5,23.5 0 1,1 48.5,25"
+        android:strokeWidth="2"
+        android:strokeColor="#5B68C0"/>
+
+    <!-- Speed Marks -->
+    <path
+        android:strokeColor="#0A3586"
+        android:strokeWidth="2"
+        android:pathData="M48.5,30 L48.5,35"/>
+    <path
+        android:strokeColor="#0A3586"
+        android:strokeWidth="2"
+        android:pathData="M35,48.5 L40,48.5"/>
+    <path
+        android:strokeColor="#0A3586"
+        android:strokeWidth="2"
+        android:pathData="M57,48.5 L62,48.5"/>
+
+    <!-- Speed Numbers -->
+    <path
+        android:fillColor="#FCC24C"
+        android:pathData="M47,38 L50,38 L50,41 L47,41 Z"/>
+    <path
+        android:fillColor="#FCC24C"
+        android:pathData="M35,47.5 L38,47.5 L38,50.5 L35,50.5 Z"/>
+    <path
+        android:fillColor="#FCC24C"
+        android:pathData="M59,47.5 L62,47.5 L62,50.5 L59,50.5 Z"/>
+
+    <!-- Needle -->
+    <path
+        android:fillColor="#5B68C0"
+        android:pathData="M48.5,48.5 L60,40 L61,42 L49.5,50.5 Z"/>
+
+    <!-- Center Point -->
+    <path
+        android:fillColor="#0A3586"
+        android:pathData="M46.5,46.5 L50.5,46.5 L50.5,50.5 L46.5,50.5 Z"/>
+
+    <!-- Bottom Display -->
+    <path
+        android:fillColor="#5B68C0"
+        android:pathData="M38.5,60 L58.5,60 C60.5,60 62,61.5 62,63.5 L62,67 L35,67 L35,63.5 C35,61.5 36.5,60 38.5,60"/>
+
+    <!-- Display Text Area -->
+    <path
+        android:fillColor="#FCC24C"
+        android:pathData="M40,62 L57,62 L57,65 L40,65 Z"/>
+</vector>

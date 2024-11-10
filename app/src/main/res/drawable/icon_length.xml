@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="97dp"
+    android:height="97dp"
+    android:viewportWidth="97"
+    android:viewportHeight="97">
+
+    <!-- Main Ruler Body -->
+    <path
+        android:fillColor="#B4DFFB"
+        android:pathData="M15,35 L82,35 L82,65 L15,65 Z"
+        android:strokeWidth="2"
+        android:strokeColor="#5B68C0"/>
+
+    <!-- Measurement Lines -->
+    <path
+        android:strokeColor="#0A3586"
+        android:strokeWidth="2"
+        android:pathData="M20,35 L20,55"/>
+    <path
+        android:strokeColor="#0A3586"
+        android:strokeWidth="2"
+        android:pathData="M30,35 L30,50"/>
+    <path
+        android:strokeColor="#0A3586"
+        android:strokeWidth="2"
+        android:pathData="M40,35 L40,55"/>
+    <path
+        android:strokeColor="#0A3586"
+        android:strokeWidth="2"
+        android:pathData="M50,35 L50,50"/>
+    <path
+        android:strokeColor="#0A3586"
+        android:strokeWidth="2"
+        android:pathData="M60,35 L60,55"/>
+    <path
+        android:strokeColor="#0A3586"
+        android:strokeWidth="2"
+        android:pathData="M70,35 L70,50"/>
+    <path
+        android:strokeColor="#0A3586"
+        android:strokeWidth="2"
+        android:pathData="M77,35 L77,55"/>
+
+    <!-- Numbers -->
+    <path
+        android:fillColor="#FCC24C"
+        android:pathData="M18,57 L22,57 L22,62 L18,62 Z"/>
+    <path
+        android:fillColor="#FCC24C"
+        android:pathData="M38,57 L42,57 L42,62 L38,62 Z"/>
+    <path
+        android:fillColor="#FCC24C"
+        android:pathData="M58,57 L62,57 L62,62 L58,62 Z"/>
+    <path
+        android:fillColor="#FCC24C"
+        android:pathData="M75,57 L79,57 L79,62 L75,62 Z"/>
+</vector>

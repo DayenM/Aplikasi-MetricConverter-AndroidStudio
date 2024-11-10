@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="97dp"
+    android:height="97dp"
+    android:viewportWidth="97"
+    android:viewportHeight="97">
+
+    <!-- Gelas Utama -->
+    <path
+        android:fillColor="#B4DFFB"
+        android:pathData="M30,20 L45,75 L55,75 L70,20 Z"
+        android:strokeWidth="2"
+        android:strokeColor="#5B68C0"/>
+
+    <!-- Cairan -->
+    <path
+        android:fillColor="#5B68C0"
+        android:pathData="M33,40 L45,75 L55,75 L67,40 L60,42 L50,38 L40,42 Z"/>
+
+    <!-- Garis Ukur -->
+    <path
+        android:strokeColor="#0A3586"
+        android:strokeWidth="2"
+        android:pathData="M35,30 L65,30"/>
+    <path
+        android:strokeColor="#0A3586"
+        android:strokeWidth="2"
+        android:pathData="M37,40 L63,40"/>
+    <path
+        android:strokeColor="#0A3586"
+        android:strokeWidth="2"
+        android:pathData="M39,50 L61,50"/>
+    <path
+        android:strokeColor="#0A3586"
+        android:strokeWidth="2"
+        android:pathData="M41,60 L59,60"/>
+
+    <!-- Angka -->
+    <path
+        android:fillColor="#FCC24C"
+        android:pathData="M68,30 L73,30 L73,33 L68,33 Z"/>
+    <path
+        android:fillColor="#FCC24C"
+        android:pathData="M68,40 L73,40 L73,43 L68,43 Z"/>
+    <path
+        android:fillColor="#FCC24C"
+        android:pathData="M68,50 L73,50 L73,53 L68,53 Z"/>
+
+    <!-- Alas -->
+    <path
+        android:fillColor="#5B68C0"
+        android:pathData="M40,75 L60,75 L65,80 L35,80 Z"/>
+</vector>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="97dp"
+    android:height="97dp"
+    android:viewportWidth="97"
+    android:viewportHeight="97">
+
+    <!-- Clock Face -->
+    <path
+        android:fillColor="#B4DFFB"
+        android:pathData="M48.5,20 A28.5,28.5 0 1,1 48.5,77 A28.5,28.5 0 1,1 48.5,20"
+        android:strokeWidth="2"
+        android:strokeColor="#5B68C0"/>
+
+    <!-- Hour Marks -->
+    <path
+        android:strokeColor="#0A3586"
+        android:strokeWidth="2"
+        android:pathData="M48.5,25 L48.5,30"/>
+    <path
+        android:strokeColor="#0A3586"
+        android:strokeWidth="2"
+        android:pathData="M48.5,67 L48.5,72"/>
+    <path
+        android:strokeColor="#0A3586"
+        android:strokeWidth="2"
+        android:pathData="M67,48.5 L72,48.5"/>
+    <path
+        android:strokeColor="#0A3586"
+        android:strokeWidth="2"
+        android:pathData="M25,48.5 L30,48.5"/>
+
+    <!-- Clock Hands -->
+    <path
+        android:strokeColor="#5B68C0"
+        android:strokeWidth="3"
+        android:pathData="M48.5,48.5 L48.5,35"/>
+    <path
+        android:strokeColor="#FCC24C"
+        android:strokeWidth="2"
+        android:pathData="M48.5,48.5 L60,48.5"/>
+
+    <!-- Center Point -->
+    <path
+        android:fillColor="#0A3586"
+        android:pathData="M46.5,46.5 L50.5,46.5 L50.5,50.5 L46.5,50.5 Z"/>
+</vector>

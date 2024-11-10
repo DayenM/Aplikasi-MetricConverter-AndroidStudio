@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="97dp"
+    android:height="97dp"
+    android:viewportWidth="97"
+    android:viewportHeight="97">
+
+    <!-- Thermometer Base -->
+    <path
+        android:fillColor="#5B68C0"
+        android:pathData="M45,65 C45,72 52,77 59,72 L59,25 C59,22 56,20 53,20 L50,20 C47,20 44,22 44,25 L44,72 C51,77 58,72 58,65"
+        android:strokeWidth="2"
+        android:strokeColor="#0A3586"/>
+
+    <!-- Mercury Tube -->
+    <path
+        android:fillColor="#B4DFFB"
+        android:pathData="M48,25 L55,25 L55,65 L48,65 Z"/>
+
+    <!-- Mercury Level -->
+    <path
+        android:fillColor="#FCC24C"
+        android:pathData="M48,45 L55,45 L55,65 L48,65 Z"/>
+
+    <!-- Temperature Lines -->
+    <path
+        android:strokeColor="#0A3586"
+        android:strokeWidth="2"
+        android:pathData="M55,30 L60,30"/>
+    <path
+        android:strokeColor="#0A3586"
+        android:strokeWidth="2"
+        android:pathData="M55,40 L60,40"/>
+    <path
+        android:strokeColor="#0A3586"
+        android:strokeWidth="2"
+        android:pathData="M55,50 L60,50"/>
+    <path
+        android:strokeColor="#0A3586"
+        android:strokeWidth="2"
+        android:pathData="M55,60 L60,60"/>
+
+    <!-- Numbers -->
+    <path
+        android:fillColor="#FCC24C"
+        android:pathData="M62,28 L65,28 L65,32 L62,32 Z"/>
+    <path
+        android:fillColor="#FCC24C"
+        android:pathData="M62,48 L65,48 L65,52 L62,52 Z"/>
+</vector>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="97dp"
+    android:height="97dp"
+    android:viewportWidth="97"
+    android:viewportHeight="97">
+
+    <!-- Base -->
+    <path
+        android:fillColor="#5B68C0"
+        android:pathData="M20,70 L77,70 L72,75 L25,75 Z"/>
+
+    <!-- Main Body -->
+    <path
+        android:fillColor="#B4DFFB"
+        android:pathData="M30,25 L67,25 C70,25 72,27 72,30 L72,65 L25,65 L25,30 C25,27 27,25 30,25"
+        android:strokeWidth="2"
+        android:strokeColor="#5B68C0"/>
+
+    <!-- Display Screen -->
+    <path
+        android:fillColor="#0A3586"
+        android:pathData="M35,35 L62,35 L62,45 L35,45 Z"/>
+
+    <!-- Buttons -->
+    <path
+        android:fillColor="#FCC24C"
+        android:pathData="M35,50 L42,50 L42,55 L35,55 Z"/>
+    <path
+        android:fillColor="#FCC24C"
+        android:pathData="M45,50 L52,50 L52,55 L45,55 Z"/>
+    <path
+        android:fillColor="#FCC24C"
+        android:pathData="M55,50 L62,50 L62,55 L55,55 Z"/>
+
+    <!-- Display Numbers -->
+    <path
+        android:fillColor="#FCC24C"
+        android:pathData="M40,37 L57,37 L57,43 L40,43 Z"/>
+</vector>
